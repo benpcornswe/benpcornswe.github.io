@@ -1,0 +1,70 @@
+.header {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+    color: white;
+}
+
+body {
+    background: rgb(253,92,161);
+    background: radial-gradient(circle, rgba(253,92,161,1) 0%, rgba(253,92,99,1) 100%);
+    font-family: 'Indie Flower', cursive;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.center-align {
+    text-align: center;
+}
+
+.responsive {
+    max-width: 10%;
+    text-align: left;
+    height: auto;
+}
+
+.center-basic {
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.letter {
+    text-align: left;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1em;
+    color: white;
+}
+
+.card{
+    width: 320px;
+    height: 80px;
+    position: relative;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+}    
+    
+.base, #scratch {
+    cursor: default;
+    height: 80px;
+    width: 320px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: grabbing;
+}
+.base {
+    text-align: center;
+}
+#scratch {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
